@@ -15,39 +15,15 @@ class ProductSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('products')->insert([
+        DB::table('products')->insert(
             [
-            'name'=>'Sk house',
-            "type"=>"colony",
-            "price"=>"150000",
+            'name'=>'homeforaday',
+            "type"=>"home",
+            "price"=>"250000",
             "location"=>"thamel",
-            "description"=>"small home suitabe for a single family",
-            "gallery"=>"https://www.google.com/url?sa=i&url=https%3A%2F%2Fsamhouseplans.com%2Fproduct%2Fsmall-house-plans-22x20-feet-6-5x6-meter-pdf-plans%2F&psig=AOvVaw1OmCIIaJqbXeGkzNkJCJ3J&ust=1627984226461000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjtxf6HkvICFQAAAAAdAAAAABAD",
-            ],
-            [
-            'name'=>'kfc house',
-            "type"=>"pizza hut",
-            "price"=>"350000",
-            "location"=>"chitwan",
-            "description"=>"suitable for picnic",
-            "gallery"=>"https://www.google.com/url?sa=i&url=https%3A%2F%2Fsamhouseplans.com%2Fproduct%2Fsmall-house-plans-22x20-feet-6-5x6-meter-pdf-plans%2F&psig=AOvVaw1OmCIIaJqbXeGkzNkJCJ3J&ust=1627984226461000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjtxf6HkvICFQAAAAAdAAAAABAD",
-            ],
-            [
-                'name'=>'Alpha house',
-                "type"=>"Apartment",
-                "price"=>"650000",
-                "location"=>"pokhara",
-                "description"=>"suitable for offices",
-                "gallery"=>"https://www.google.com/url?sa=i&url=https%3A%2F%2Fsamhouseplans.com%2Fproduct%2Fsmall-house-plans-22x20-feet-6-5x6-meter-pdf-plans%2F&psig=AOvVaw1OmCIIaJqbXeGkzNkJCJ3J&ust=1627984226461000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjtxf6HkvICFQAAAAAdAAAAABAD",
-            ],
-            [
-                'name'=>'purple home',
-                "type"=>"flat",
-                "price"=>"50000",
-                "location"=>"Bhaktapur",
-                "description"=>"three roomed flat",
-                "gallery"=>"https://www.google.com/url?sa=i&url=https%3A%2F%2Fsamhouseplans.com%2Fproduct%2Fsmall-house-plans-22x20-feet-6-5x6-meter-pdf-plans%2F&psig=AOvVaw1OmCIIaJqbXeGkzNkJCJ3J&ust=1627984226461000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjtxf6HkvICFQAAAAAdAAAAABAD",
-            ],
+            "description"=>"quiet home for small gatherings",
+            "gallery"=>"https://static7.depositphotos.com/1066655/763/i/600/depositphotos_7637062-stock-photo-home-for-rent.jpg",
+            
         ]);
     }
 }

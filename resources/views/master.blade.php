@@ -32,5 +32,24 @@
         height:500px;
         padding-top:100px;
     }
+    img.slider-img{
+        height: 100px;
+    }
+    .custom-products{
+        height:800px;
+    }
+    .slider-text{
+        background-color:#35443585;
+    }
+    .trending-houses{
+        height:100px;
+    }
+    .trending-item{
+        float:left;
+        width:20%;
+    }
+    .detail-img{
+        height:200px;
+    }
 </style>
 </html>
